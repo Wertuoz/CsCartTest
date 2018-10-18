@@ -1,0 +1,1 @@
+{script src="js/addons/lite_checkout/script.js"}

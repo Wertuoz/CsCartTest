@@ -1,0 +1,686 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:5275:"<script type="text/javascript" src="http://localhost:8080/cscartRep/js/tygh/exceptions.js?ver=4.9.1" ></script><script type="text/javascript" src="http://localhost:8080/cscartRep/js/tygh/previewers/magnific.previewer.js?ver=4.9.1" ></script><script type="text/javascript" src="http://localhost:8080/cscartRep/js/tygh/product_image_gallery.js?ver=4.9.1" ></script><script type="text/javascript" src="http://localhost:8080/cscartRep/js/addons/image_zoom/cloudzoom.js?ver=4.9.1" ></script><script type="text/javascript" src="http://localhost:8080/cscartRep/js/addons/image_zoom/func.js?ver=4.9.1" ></script><script type="text/javascript">
+(function(_, $) {
+
+    $.ceEvent('on', 'ce.commoninit', function (context) {
+
+        var mobileWidth = 767,
+            imageZoomSize = 450;
+
+        // Disable Cloud zoom on mobile devices
+        if ($(window).width() > mobileWidth) {
+
+            context.find('.cm-previewer').each(function () {
+
+                var elm = $(this).find('img'),
+                    elm_width = $(this).data('caImageWidth'),
+                    elm_height = $(this).data('caImageHeight'),
+                    elm_image_path = $(elm).data('caZoomImagePath') ? $(elm).data('caZoomImagePath') : $(this).prop('href');
+                    
+                if (elm.data('CloudZoom') == undefined) {
+                    elm.attr('data-cloudzoom', 'zoomImage: "' + elm_image_path + '"')
+                        .CloudZoom({
+                            tintColor: '#ffffff',
+                            tintOpacity: 0.6,
+                            animationTime: 200,
+                            easeTime: 200,
+                            zoomFlyOut: true,
+                            zoomSizeMode: 'zoom',
+                            captionPosition: 'bottom',
+                                                        zoomPosition: '3',
+                            autoInside: mobileWidth,
+                            disableOnScreenWidth: mobileWidth,
+                            zoomWidth: elm_width < imageZoomSize ? elm_width : imageZoomSize,
+                            zoomHeight: elm_height < imageZoomSize ? elm_height : imageZoomSize
+                        });
+                }
+            });
+
+        }
+    });
+
+}(Tygh, Tygh.$));
+</script><script type="text/javascript" class="cm-ajax-force">
+(function(_, $) {
+    $(document).ready(function () {
+        if($(".twitter-share-button").length > 0){
+            if (typeof (twttr) != 'undefined') {
+                twttr.widgets.load();
+            } else {
+                $.getScript('//platform.twitter.com/widgets.js');
+            }
+        }
+    });
+}(Tygh, Tygh.$));
+</script><script class="cm-ajax-force">
+    (function(_, $) {
+        if ($(".fb-like").length > 0) {
+            if (typeof (FB) != 'undefined') {
+                FB.init({ status: true, cookie: true, xfbml: true });
+            } else {
+                $.getScript("//connect.facebook.net/en_US/all.js#xfbml=1&appId=", function () {
+                    FB.init({ status: true, cookie: true, xfbml: true });
+                });
+            }
+        }
+    }(Tygh, Tygh.$));
+</script><script type="text/javascript" class="cm-ajax-force">
+    (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script><script type="text/javascript">
+    (function(d){
+        var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+        p.type = 'text/javascript';
+        p.async = true;
+        p.src = '//assets.pinterest.com/js/pinit.js';
+        f.parentNode.insertBefore(p, f);
+    }(document));
+</script><script type="text/javascript" src="http://localhost:8080/cscartRep/js/tygh/tabs.js?ver=4.9.1" ></script><script type="text/javascript">
+        (function (w, _, $) {
+            $(document).ready(function () {
+                w.dataLayerYM.push({
+                    "ecommerce": {
+                        "detail": {
+                            "products": [
+                                {
+                                    "id": 76,
+                                    "name": "Razer BlackWidow Chroma V2 (Yellow Switch)",
+                                    "price": "0.000000",
+                                    "brand": "",
+                                                                                                            "category": "\u041a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u044b",
+                                                                    }
+                            ]
+                        }
+                    }
+                });
+            });
+        }(window, Tygh, Tygh.$));
+    </script><script type="text/javascript">
+(function(_, $) {
+    $.ceEvent('on', 'ce.formpre_product_form_76', function(frm, elm) {
+        if ($('#warning_76').length) {
+            $.ceNotification('show', {
+                type: 'W', 
+                title: _.tr('warning'), 
+                message: _.tr('cannot_buy'),
+            });
+
+            return false;
+        }
+            
+        return true;
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:60116:"        
+
+
+
+
+<!-- Inline script moved to the bottom of the page -->
+<div class="ty-product-block ty-product-detail">
+    <div class="ty-product-block__wrapper clearfix">
+    
+                                    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="ty-product-block__img-wrapper">
+                
+                                            <div class="ty-product-block__img cm-reload-76" id="product_images_76_update">
+
+                                                            
+
+                            
+    
+    
+    
+<div class="ty-product-img cm-preview-wrapper">
+<a id="det_img_link_765bcaf5e79af88_2906" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="600" href="http://localhost:8080/cscartRep/images/detailed/2/1_39i8-z6.png" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2906"  src="http://localhost:8080/cscartRep/images/thumbnails/280/210/detailed/2/1_39i8-z6.png" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="210" viewBox="0 0 280 210" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="210"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+
+                                        <a id="det_img_link_765bcaf5e79af88_2907" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="600" href="http://localhost:8080/cscartRep/images/detailed/2/1_q8w7-qc.png" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2907"  src="http://localhost:8080/cscartRep/images/thumbnails/280/210/detailed/2/1_q8w7-qc.png" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="210" viewBox="0 0 280 210" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="210"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2908" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="600" href="http://localhost:8080/cscartRep/images/detailed/2/2_ydi0-tg.png" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2908"  src="http://localhost:8080/cscartRep/images/thumbnails/280/210/detailed/2/2_ydi0-tg.png" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="210" viewBox="0 0 280 210" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="210"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2909" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="600" href="http://localhost:8080/cscartRep/images/detailed/2/4_9l2n-la.png" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2909"  src="http://localhost:8080/cscartRep/images/thumbnails/280/210/detailed/2/4_9l2n-la.png" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="210" viewBox="0 0 280 210" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="210"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2910" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="600" href="http://localhost:8080/cscartRep/images/detailed/2/5_fsm5-53.png" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2910"  src="http://localhost:8080/cscartRep/images/thumbnails/280/210/detailed/2/5_fsm5-53.png" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="210" viewBox="0 0 280 210" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="210"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2911" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="600" href="http://localhost:8080/cscartRep/images/detailed/2/6_mhag-zp.png" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2911"  src="http://localhost:8080/cscartRep/images/thumbnails/280/210/detailed/2/6_mhag-zp.png" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="210" viewBox="0 0 280 210" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="210"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2912" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="600" href="http://localhost:8080/cscartRep/images/detailed/2/7_tzxt-rn.png" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2912"  src="http://localhost:8080/cscartRep/images/thumbnails/280/210/detailed/2/7_tzxt-rn.png" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="210" viewBox="0 0 280 210" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="210"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2913" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="600" href="http://localhost:8080/cscartRep/images/detailed/2/8_qdhx-2w.png" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2913"  src="http://localhost:8080/cscartRep/images/thumbnails/280/210/detailed/2/8_qdhx-2w.png" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="210" viewBox="0 0 280 210" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="210"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2914" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="534" href="http://localhost:8080/cscartRep/images/detailed/2/9_rpxv-8v.jpg" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2914"  src="http://localhost:8080/cscartRep/images/thumbnails/280/186/detailed/2/9_rpxv-8v.jpg" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="186" viewBox="0 0 280 186" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="186"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2915" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="534" href="http://localhost:8080/cscartRep/images/detailed/2/10_fkgh-v8.jpg" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2915"  src="http://localhost:8080/cscartRep/images/thumbnails/280/186/detailed/2/10_fkgh-v8.jpg" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="186" viewBox="0 0 280 186" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="186"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2916" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="534" href="http://localhost:8080/cscartRep/images/detailed/2/11_moay-j4.jpg" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2916"  src="http://localhost:8080/cscartRep/images/thumbnails/280/186/detailed/2/11_moay-j4.jpg" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="186" viewBox="0 0 280 186" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="186"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2917" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="534" href="http://localhost:8080/cscartRep/images/detailed/2/12_pp0f-bz.jpg" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2917"  src="http://localhost:8080/cscartRep/images/thumbnails/280/186/detailed/2/12_pp0f-bz.jpg" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="186" viewBox="0 0 280 186" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="186"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2918" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="534" href="http://localhost:8080/cscartRep/images/detailed/2/13_6061-tz.jpg" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2918"  src="http://localhost:8080/cscartRep/images/thumbnails/280/186/detailed/2/13_6061-tz.jpg" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="186" viewBox="0 0 280 186" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="186"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2919" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="534" href="http://localhost:8080/cscartRep/images/detailed/2/13_nbmd-g7.jpg" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2919"  src="http://localhost:8080/cscartRep/images/thumbnails/280/186/detailed/2/13_nbmd-g7.jpg" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="186" viewBox="0 0 280 186" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="186"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_765bcaf5e79af88_2920" data-ca-image-id="preview[product_images_765bcaf5e79af88]" class="cm-image-previewer hidden cm-previewer ty-previewer" data-ca-image-width="800" data-ca-image-height="534" href="http://localhost:8080/cscartRep/images/detailed/2/14.jpg" title=""><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2920"  src="http://localhost:8080/cscartRep/images/thumbnails/280/186/detailed/2/14.jpg" alt="" title=""  /><svg class="ty-pict__container" aria-hidden="true" width="280" height="186" viewBox="0 0 280 186" style="max-width: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1;"><rect fill="transparent" width="280" height="186"></rect></svg>
+<span class="ty-previewer__icon hidden-phone"></span></a>
+    </div>
+
+            <div class="ty-product-thumbnails ty-center cm-image-gallery" id="images_preview_765bcaf5e79af88" style="width: 280px;">
+            <a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2906" class="cm-thumbnails-mini active ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2906_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/1_39i8-z6.png" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2907" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2907_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/1_q8w7-qc.png" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2908" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2908_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/2_ydi0-tg.png" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2909" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2909_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/4_9l2n-la.png" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2910" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2910_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/5_fsm5-53.png" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2911" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2911_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/6_mhag-zp.png" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2912" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2912_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/7_tzxt-rn.png" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2913" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2913_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/8_qdhx-2w.png" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2914" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2914_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/9_rpxv-8v.jpg" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2915" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2915_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/10_fkgh-v8.jpg" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2916" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2916_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/11_moay-j4.jpg" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2917" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2917_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/12_pp0f-bz.jpg" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2918" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2918_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/13_6061-tz.jpg" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2919" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2919_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/13_nbmd-g7.jpg" alt="" title=""  />
+</a><a data-ca-gallery-large-id="det_img_link_765bcaf5e79af88_2920" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict     cm-image" id="det_img_765bcaf5e79af88_2920_mini"  src="http://localhost:8080/cscartRep/images/thumbnails/35/35/detailed/2/14.jpg" alt="" title=""  />
+</a>        </div>
+    
+
+<!-- Inline script moved to the bottom of the page -->
+<!-- Inline script moved to the bottom of the page -->
+
+
+<!-- Inline script moved to the bottom of the page -->
+<!-- Inline script moved to the bottom of the page -->
+
+<!-- Inline script moved to the bottom of the page -->
+
+                        <!--product_images_76_update--></div>
+                                    
+
+            </div>
+            <div class="ty-product-block__left">
+                                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_76" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?dispatch=products.view&amp;product_id=76" />
+<input type="hidden" name="product_data[76][product_id]" value="76" />
+
+
+                
+                                            <h1 class="ty-product-block-title" ><bdi>Razer BlackWidow Chroma V2 (Yellow Switch)</bdi></h1>
+                    
+                    
+                        <div class="brand cm-reload-76" id="product_76_brand_container">
+    
+
+
+<!--product_76_brand_container--></div>
+                    
+
+                
+
+
+                                                                                
+                
+                                
+
+
+                <div class="prices-container price-wrap">
+                                            <div class="ty-product-prices">
+                                        <span class="cm-reload-76" id="old_price_update_76">
+            
+                        
+
+        <!--old_price_update_76--></span>
+                        
+                                            <div class="ty-product-block__price-actual">
+                                <span class="cm-reload-76 ty-price-update" id="price_update_76">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-no-price">Свяжитесь с нами насчёт цены</span>
+                                                
+
+                        <!--price_update_76--></span>
+
+                        </div>
+                    
+                                                    
+                                        <span class="cm-reload-76" id="line_discount_update_76">
+            <input type="hidden" name="appearance[show_price_values]" value="1" />
+            <input type="hidden" name="appearance[show_list_discount]" value="1" />
+                    <!--line_discount_update_76--></span>
+    
+                        </div>
+                                    </div>
+
+                                <div class="ty-product-block__option">
+                                                <div class="cm-reload-76" id="product_options_update_76">
+        <input type="hidden" name="appearance[show_product_options]" value="1" />
+        <input type="hidden" name="product_id" value="76" />
+                                                    
+<input type="hidden" name="appearance[details_page]" value="1" />
+    <input type="hidden" name="additional_info[info_type]" value="D" />
+    <input type="hidden" name="additional_info[get_icon]" value="1" />
+    <input type="hidden" name="additional_info[get_detailed]" value="1" />
+    <input type="hidden" name="additional_info[get_additional]" value="" />
+    <input type="hidden" name="additional_info[get_options]" value="1" />
+    <input type="hidden" name="additional_info[get_discounts]" value="1" />
+    <input type="hidden" name="additional_info[get_features]" value="" />
+    <input type="hidden" name="additional_info[get_extra]" value="" />
+    <input type="hidden" name="additional_info[get_taxed_prices]" value="1" />
+    <input type="hidden" name="additional_info[get_for_one_product]" value="1" />
+    <input type="hidden" name="additional_info[detailed_params]" value="1" />
+    <input type="hidden" name="additional_info[features_display_on]" value="C" />
+
+
+<!-- Inline script moved to the bottom of the page -->
+
+        
+
+    <!--product_options_update_76--></div>
+    
+                </div>
+                
+                <div class="ty-product-block__advanced-option clearfix">
+                                                                        <div class="cm-reload-76" id="advanced_options_update_76">
+            
+            
+            
+<input type="hidden" name="appearance[dont_show_points]" value="" />
+    <div class="ty-reward-group product-list-field hidden">
+    <span class="ty-control-group__label">Бонусные баллы:</span>
+    <span class="ty-control-group__item" id="reward_points_76"><bdi> баллов</bdi></span>
+</div>
+
+        <!--advanced_options_update_76--></div>
+    
+                                    </div>
+
+                <div class="ty-product-block__sku">
+                                                    <div class="ty-control-group ty-sku-item cm-hidden-wrapper cm-reload-76" id="sku_update_76">
+            <input type="hidden" name="appearance[show_sku]" value="1" />
+                            <label class="ty-control-group__label" id="sku_76">КОД:</label>
+                        <span class="ty-control-group__item">RZ03-02032300-R3M1</span>
+        <!--sku_update_76--></div>
+    
+                </div>
+
+                                <div class="ty-product-block__field-group">
+                                        
+    <div class="cm-reload-76 stock-wrap" id="product_amount_update_76">
+        <input type="hidden" name="appearance[show_product_amount]" value="1" />
+                                                        <div class="ty-control-group product-list-field">
+                                                    <label class="ty-control-group__label">Доступность:</label>
+                                                <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_76">Нет в наличии</span>
+                    </div>
+                                        <!--product_amount_update_76--></div>
+
+
+
+
+                                            
+        <div class="cm-reload-76" id="qty_update_76">
+        <input type="hidden" name="appearance[show_qty]" value="" />
+        <input type="hidden" name="appearance[capture_options_vs_qty]" value="" />
+                            
+                    <input type="hidden" name="product_data[76][amount]" value="1" />
+                <!--qty_update_76--></div>
+    
+
+
+
+                                            
+            
+
+
+                </div>
+                
+                                    
+
+                
+                                <div class="ty-product-block__button">
+                    
+                                        <div class="cm-reload-76 " id="add_to_cart_update_76">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="1" />
+<input type="hidden" name="appearance[but_role]" value="big" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+
+        
+ 
+    <a  class="ty-btn ty-btn__text ty-add-to-wish cm-submit text-button " id="button_wishlist_76" data-ca-dispatch="dispatch[wishlist.add..76]">Отложить</a>
+
+
+    
+            
+ 
+    <a  class="ty-btn ty-btn__text ty-add-to-compare cm-ajax cm-ajax-full-render text-button " href="http://localhost:8080/cscartRep/index.php?dispatch=product_features.add_product&amp;product_id=76&amp;redirect_url=index.php%3Fdispatch%3Dproducts.view%26product_id%3D76" rel="nofollow" data-ca-target-id="comparison_list,account_info*">Добавить в список сравнения</a>
+
+
+
+
+
+<!--add_to_cart_update_76--></div>
+
+
+                                        
+                </div>
+                
+                                <input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+
+
+                
+                
+    <ul class="ty-social-buttons">
+                        <li class="ty-social-buttons__inline"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ru" data-size="medium" data-count="horizontal" data-url="http://localhost:8080/cscartRep/index.php?dispatch=products.view&product_id=76" >Tweet</a>
+<!-- Inline script moved to the bottom of the page -->
+</li>
+                                <li class="ty-social-buttons__inline"><div id="fb-root"></div>
+<div class="fb-like" data-lang="ru" data-layout="button_count" data-href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&product_id=76" data-send="true" data-show-faces="false" data-action="like" data-font="arial" data-colorscheme="light" data-width="450" ></div>
+<!-- Inline script moved to the bottom of the page -->
+</li>
+                                <li class="ty-social-buttons__inline"><div class="g-plusone" data-size="standard" data-annotation="bubble" data-align="left" data-expandTo="top" data-recommendations="yes" ></div>
+<!-- Inline script moved to the bottom of the page -->
+</li>
+                                            <li class="ty-social-buttons__inline"><a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Flocalhost%3A8080%2FcscartRep%2Findex.php%3Fdispatch%3Dproducts.view%26product_id%3D76&amp;media=http%3A%2F%2Flocalhost%3A8080%2FcscartRep%2Fimages%2Fdetailed%2F2%2F1_39i8-z6.png&amp;description=%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0%20Razer%20BlackWidow%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B0%D1%81%D1%8C%20%D0%B2%202010%20%D0%B3%D0%BE%D0%B4%D1%83%20%D0%B8%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%20%D1%81%D1%82%D0%B0%D0%BB%D0%B0%20%D1%81%D0%B0%D0%BC%D0%BE%D0%B9%20%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%BC%D0%BE%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D0%B0%D0%B5%D0%BC%D0%BE%D0%B9..." data-pin-do="buttonPin" data-pin-shape="rect" data-pin-height="20" data-pin-color="gray" ><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" alt="Pinterest"></a>
+<!-- Inline script moved to the bottom of the page -->
+</li>
+                </ul>
+
+
+                                
+
+                    
+                            </div>
+        
+    
+
+    </div>
+
+    
+            
+            
+
+
+                                    
+
+<!-- Inline script moved to the bottom of the page -->
+<div class="ty-tabs cm-j-tabs clearfix">
+    <ul class="ty-tabs__list" >
+                                                        <li id="description" class="ty-tabs__item cm-js active"><a class="ty-tabs__a" >Описание</a></li>
+                                            <li id="features" class="ty-tabs__item cm-js"><a class="ty-tabs__a" >Особенности</a></li>
+                                                        <li id="" class="ty-tabs__item"><a class="ty-tabs__a" ></a></li>
+                                                                </ul>
+</div>
+
+<div class="cm-tabs-content ty-tabs__content clearfix" id="tabs_content">
+                            
+            
+                                        
+            <div id="content_description" class="ty-wysiwyg-content content-description">
+                                                    
+    <div >Механическая игровая клавиатура Razer BlackWidow появилась в 2010 году и быстро стала самой популярной и самой продаваемой игровой клавиатурой в мире. Особенно она пришлась по вкусу киберспортсменам. Четыре года спустя был представлен механический переключатель Razer™ — первый в мире переключатель с нуля разработанный специально для гейминга, благодаря чему Razer BlackWidow получила еще больше преимуществ. С таким нововведением геймеры смогли выйти на новый уровень игры, увеличив скорость и точность. Раздвигая границы совершенства, эта элитная механическая игровая клавиатура оставляет соперников далеко позади.
+Новая клавиатура Razer BlackWidow Chroma V2 с подсветкой Razer Chroma™ дает вам неограниченную свободу самовыражения с помощью внушительного спектра цветов. Также она позволяет индивидуально настроить световые эффекты подсветки.
+
+Принципиально новые механические переключатели Razer™
+Разработанные специально для гейминга, новые механические переключатели Razerотличаются оптимизированным набором точек срабатывания и сброса. Вам остается только оттачивать свое мастерство на невиданных прежде скоростях и с молниеносной реакцией. Такие клавиши, оптимально передающие тактильные ощущения, помогают быстрее и точнее реагировать в критических игровых ситуациях.
+
+Razer Green Switch – тактильные и щёлкающие
+Разработанный с оптимизированными точками срабатывания и сброса, этот механический перелючатель предоставит вам лучшую производительность в играх. Каждое срабатываение сопровождается характерным щелчком, а дистанция возврата в исходное положение (для повторного выстрела), почти в 2 раза меньше, чем у стандартных механических переключателей. Вы получите скорость, которую раньше не могли даже представить.
+
+Razer Orange Switch – тактильные и тихие
+Почти бесшумный механический переключатель с быстрым срабатыванием. Оптимизированные точки срабатывания и сброса гарантируют, что вы сможете стрелять в 2 раза быстрее по сравнению со стандартными механическими переключателями.
+
+Razer Yellow Switch – линейные и тихие
+Новые переключатели Razer Yellow Switch имеют линейную конструкцию, с уменьшенным расстоянием хода до 3,5 мм и силой нажатия всего 45 г. Они предназначены для FPS и MOBA геймеров, отличаются бесшумным откликом и молниеносной скоростью команд благодаря короткому ходу клавиш в 1,2 мм.
+
+Подсветка Chroma с настройкой 16,8 млн. оттенков
+Клавиатура Razer BlackWidow Chroma V2 имеет индивидуально программируемую подсветку клавиш с 16,8 млн. оттенков и простой настройкой в Razer Synapse. От готовых шаблонов подсветки для разных типов игр до вашей собственной программируемой палитры — мы предусмотрели все, чтобы вы получили максимум впечатлений от игры.
+
+Эргономичная подставка для запястья – максимум комфорта в игре
+Специально разработанная для Razer BlackWidow Chroma V2, эта эргономичная подставка для запястья обеспечивает комфорт даже в самых напряженных игровых марафонах.
+
+Световые эффекты через Razer Synapse 2.0
+С помощью программы Razer Synapse 2.0 вы можете настроить подсветку клавиатуры и других устройств серии Chroma, использую множество различных эффектов: Циклическое переключение цветов спектра, Дыхание, Реактивный, Волна, Статическая подсветка, Пользовательская и на основе шаблонов. Вы сможете для каждой игры создать свою подсветку, а мы для вас подготовили рекомендации по жанрам FPS, MOBA, MMO и RTS, которые вы можете менять на свой вкус.
+Системные требования
+ПК или Mac со свободным USB портом
+Windows® 10/Windows® 8/Windows® 7/Mac OS X (v10.8 - 10.11)
+Интернет соединение (для установки драйверов)
+Свободное место на жестком диске: 100 Мбайт
+Чтобы использовать полный набор функций продукта и для получения обновлений программного обеспечения, потребуется регистрация аккаунта в Razer Synapse 2.0 (нужен действующий адрес электронной почты), скачивание программного обеспечения, принятие лицензионного соглашения и подключение к интернету. После активации полный набор функций продукта доступен и в дополнительном автономном режиме.</div>
+
+                            
+            </div>
+                                
+            
+                                        
+            <div id="content_features" class="ty-wysiwyg-content content-features">
+                                                    
+            <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Артикул:</span>
+
+                            
+        <div class="ty-product-feature__value">RZ03-02032300-R3M1</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Вес:</span>
+
+                            
+        <div class="ty-product-feature__value">1460 гр (1700 гр с подставкой)</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Встроенная память:</span>
+
+                            
+        <div class="ty-product-feature__value">Да</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Встроенные аудио-входы:</span>
+
+                            
+        <div class="ty-product-feature__value">Да</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Встроенный USB-порт:</span>
+
+                            
+        <div class="ty-product-feature__value">Да</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Гарантия:</span>
+
+                            
+        <div class="ty-product-feature__value">2 года
+</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Длина провода:</span>
+
+                            
+        <div class="ty-product-feature__value">1.8 м</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Дополнительные макроклавиши:</span>
+
+                            
+        <div class="ty-product-feature__value">Да</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Интерфейс:</span>
+
+                            
+        <div class="ty-product-feature__value">Usb</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Клавиши Anti-ghost:</span>
+
+                            
+        <div class="ty-product-feature__value">10</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Мультимедиа клавиши:</span>
+
+                            
+        <div class="ty-product-feature__value">Да</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Подсветка:</span>
+
+                            
+        <div class="ty-product-feature__value">16,8 млн</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Подставка для рук:</span>
+
+                            
+        <div class="ty-product-feature__value">Да</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Размеры:</span>
+
+                            
+        <div class="ty-product-feature__value">484 x 246,8 x 42 мм</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Тип клавиатуры:</span>
+
+                            
+        <div class="ty-product-feature__value">Механическая</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Тип переключателей:</span>
+
+                            
+        <div class="ty-product-feature__value">Razer Yellow Switch</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Укладка кабеля:</span>
+
+                            
+        <div class="ty-product-feature__value">Нет</div>
+        </div>
+    
+                                                                    
+                            
+            </div>
+                                
+            
+            
+            <div id="content_files" class="ty-wysiwyg-content content-files">
+                                                    
+
+                            
+            </div>
+                                
+            
+                                        
+            <div id="content_._tags" class="ty-wysiwyg-content content-._tags">
+                                                        Mac OS X            	   2  �     �                                    ATTR W  �   �   9                  �   9  com.apple.quarantine 0081;5bc77ec5;Chrome;06DBAFE5-36C5-4A58-B547-47C65DA352A6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              This resource fork intentionally left blank                                                                                                                                                                                                                            ��
+                            
+            </div>
+                                
+            
+            
+            <div id="content_tags" class="ty-wysiwyg-content content-tags">
+                                                    
+    
+
+                            
+            </div>
+                                
+            
+                                        
+            <div id="content_._attachments" class="ty-wysiwyg-content content-._attachments">
+                                                        Mac OS X            	   2  �     �                                    ATTR %�  �   �   9                  �   9  com.apple.quarantine 0081;5bc77ec5;Chrome;06DBAFE5-36C5-4A58-B547-47C65DA352A6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              This resource fork intentionally left blank                                                                                                                                                                                                                            ��
+                            
+            </div>
+                                
+            
+            
+            <div id="content_attachments" class="ty-wysiwyg-content content-attachments">
+                                                    
+
+                            
+            </div>
+                                            
+            
+                                        
+            <div id="content_._discussion" class="ty-wysiwyg-content content-._discussion">
+                                                        Mac OS X            	   2  �     �                                    ATTR �  �   �   9                  �   9  com.apple.quarantine 0081;5bc77ec5;Chrome;06DBAFE5-36C5-4A58-B547-47C65DA352A6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              This resource fork intentionally left blank                                                                                                                                                                                                                            ��
+                            
+            </div>
+                                
+            
+            
+            <div id="content_discussion" class="ty-wysiwyg-content content-discussion">
+                                                    
+
+
+                            
+            </div>
+                                
+            
+                                        
+            <div id="content_._required_products" class="ty-wysiwyg-content content-._required_products">
+                                                        Mac OS X            	   2  �     �                                    ATTR �  �   �   9                  �   9  com.apple.quarantine 0081;5bc77ec5;Chrome;06DBAFE5-36C5-4A58-B547-47C65DA352A6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              This resource fork intentionally left blank                                                                                                                                                                                                                            ��
+                            
+            </div>
+                                
+            
+            
+            <div id="content_required_products" class="ty-wysiwyg-content content-required_products">
+                                                    
+
+                            
+            </div>
+            
+</div>
+
+
+
+                    
+
+    </div>
+
+<div class="product-details">
+</div>
+
+
+
+    <!-- Inline script moved to the bottom of the page -->
+
+";}s:6:"expiry";i:0;}

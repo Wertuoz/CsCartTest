@@ -1,0 +1,715 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:2295:"<script type="text/javascript" src="http://localhost:8080/cscartRep/js/lib/owlcarousel/owl.carousel.min.js?ver=4.9.1" ></script><script type="text/javascript">
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_56');
+
+        $('.ty-float-left:contains(.ty-scroller-list),.ty-float-right:contains(.ty-scroller-list)').css('width', '100%');
+
+        var item = 4,
+            // default setting of carousel
+            itemsDesktop = 4,
+            itemsDesktopSmall = 3;
+            itemsTablet = 2;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+        var desktop = [1199, itemsDesktop],
+            desktopSmall = [979, itemsDesktopSmall],
+            tablet = [768, itemsTablet],
+            mobile = [479, 1];
+
+                function outsideNav () {
+            if(this.options.items >= this.itemsAmount){
+                $("#owl_outside_nav_56").hide();
+            } else {
+                $("#owl_outside_nav_56").show();
+            }
+        }
+        
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: desktop,
+                itemsDesktopSmall: desktopSmall,
+                itemsTablet: tablet,
+                itemsMobile: mobile,
+                                scrollPerPage: true,
+                                                autoPlay: false,
+                                lazyLoad: true,
+                slideSpeed: 400,
+                stopOnHover: true,
+                                pagination: false,
+                            afterInit: outsideNav,
+                afterUpdate : outsideNav
+            });
+
+              $('#owl_prev_56000').click(function(){
+                elm.trigger('owl.prev');
+              });
+              $('#owl_next_56000').click(function(){
+                elm.trigger('owl.next');
+              });
+
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:16742:"    <div class="ty-mainbox-simple-container clearfix homepage-hotdeals">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Горячие предложения
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+                        
+
+    <div class="owl-theme ty-owl-controls">
+        <div class="owl-controls clickable owl-controls-outside"  id="owl_outside_nav_56">
+            <div class="owl-buttons">
+                <div id="owl_prev_56000" class="owl-prev"><i class="ty-icon-left-open-thin"></i></div>
+                <div id="owl_next_56000" class="owl-next"><i class="ty-icon-right-open-thin"></i></div>
+            </div>
+        </div>
+    </div>
+
+<div id="scroll_list_56" class="owl-carousel ty-scroller-list">
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=108"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/3/1_qb6e-a5.png" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000108" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000108][product_id]" value="108" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=108" class="product-title" title="Razer Hammerhead V2" >Razer Hammerhead V2</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000108 " id="add_to_cart_update_56000scr_56000108">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000108">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000108--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=109"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/3/1_neje-bj.png" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000109" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000109][product_id]" value="109" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=109" class="product-title" title="Razer Hammerhead Pro V2" >Razer Hammerhead Pro V2</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000109 " id="add_to_cart_update_56000scr_56000109">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000109">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000109--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=110"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/3/1_v01a-du.jpg" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000110" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000110][product_id]" value="110" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=110" class="product-title" title="Razer Hammerhead USB-C" >Razer Hammerhead USB-C</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000110 " id="add_to_cart_update_56000scr_56000110">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000110">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000110--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=111"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/3/1_qs2a-bp.png" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000111" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000111][product_id]" value="111" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=111" class="product-title" title="Razer Hammerhead for iOS (Apple Lightning Connector)" >Razer Hammerhead for iOS (Apple Lightning Connector)</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000111 " id="add_to_cart_update_56000scr_56000111">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000111">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000111--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=112"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/3/1_irie-nw.png" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000112" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000112][product_id]" value="112" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=112" class="product-title" title="Razer Hammerhead for iOS Mercury Edition" >Razer Hammerhead for iOS Mercury Edition</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000112 " id="add_to_cart_update_56000scr_56000112">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000112">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000112--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=113"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/3/1_qvqv-rg.jpg" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000113" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000113][product_id]" value="113" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=113" class="product-title" title="Razer Hammerhead BT, Bluetooth" >Razer Hammerhead BT, Bluetooth</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000113 " id="add_to_cart_update_56000scr_56000113">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000113">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000113--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+    </div>
+
+
+<!-- Inline script moved to the bottom of the page -->
+<!-- Inline script moved to the bottom of the page -->
+
+
+</div>
+    </div>
+";}s:6:"expiry";i:0;}

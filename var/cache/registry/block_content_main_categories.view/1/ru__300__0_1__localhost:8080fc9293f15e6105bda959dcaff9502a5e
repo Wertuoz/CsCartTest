@@ -1,0 +1,462 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:233:"<script type="text/javascript" src="http://localhost:8080/cscartRep/js/tygh/exceptions.js?ver=4.9.1" ></script><script type="text/javascript" src="http://localhost:8080/cscartRep/js/tygh/product_image_gallery.js?ver=4.9.1" ></script>";s:7:"content";s:26317:"    <div class="ty-mainbox-container clearfix">
+                    
+                <h1 class="ty-mainbox-title">
+                    
+                                            <span >Акустика</span>
+                                        
+
+                </h1>
+            
+    
+                <div class="ty-mainbox-body">
+<div id="category_products_12">
+
+
+
+    
+    
+
+    <!-- Inline script moved to the bottom of the page -->
+    
+
+            
+    <div class="ty-pagination-container cm-pagination-container" id="pagination_contents">
+
+    
+    
+
+    
+    
+            <div class="ty-sort-container">
+    
+
+    
+<div class="ty-sort-container__views-icons">
+                <a class="ty-sort-container__views-a cm-ajax active" data-ca-target-id="pagination_contents" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;sort_by=product&amp;sort_order=desc&amp;layout=products_multicolumns" rel="nofollow">
+    <i class="ty-icon-products-multicolumns"></i>
+</a>
+                <a class="ty-sort-container__views-a cm-ajax " data-ca-target-id="pagination_contents" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;sort_by=product&amp;sort_order=asc&amp;layout=products_without_options" rel="nofollow">
+    <i class="ty-icon-products-without-options"></i>
+</a>
+                <a class="ty-sort-container__views-a cm-ajax " data-ca-target-id="pagination_contents" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;sort_by=product&amp;sort_order=asc&amp;layout=short_list" rel="nofollow">
+    <i class="ty-icon-short-list"></i>
+</a>
+</div>
+
+    <div class="ty-sort-dropdown">
+    <a id="sw_elm_sort_fields" class="ty-sort-dropdown__wrapper cm-combination">Сортировать по алфавиту: от А до Я<i class="ty-sort-dropdown__icon ty-icon-down-micro"></i></a>
+    <ul id="elm_sort_fields" class="ty-sort-dropdown__content cm-popup-box hidden">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="sort-by-timestamp-desc ty-sort-dropdown__content-item">
+                        <a class="cm-ajax ty-sort-dropdown__content-item-a" data-ca-target-id="pagination_contents" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;sort_by=timestamp&amp;sort_order=desc" rel="nofollow">Сортировать по времени: новинки выше</a>
+                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="sort-by-product-desc ty-sort-dropdown__content-item">
+                        <a class="cm-ajax ty-sort-dropdown__content-item-a" data-ca-target-id="pagination_contents" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;sort_by=product&amp;sort_order=desc" rel="nofollow">Сортировать по алфавиту: от Я до А</a>
+                    </li>
+                                                                                                                                                                                                                                                <li class="sort-by-price-asc ty-sort-dropdown__content-item">
+                        <a class="cm-ajax ty-sort-dropdown__content-item-a" data-ca-target-id="pagination_contents" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;sort_by=price&amp;sort_order=asc" rel="nofollow">Сортировать по цене: дешевые выше</a>
+                    </li>
+                                                                                                                                                <li class="sort-by-price-desc ty-sort-dropdown__content-item">
+                        <a class="cm-ajax ty-sort-dropdown__content-item-a" data-ca-target-id="pagination_contents" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;sort_by=price&amp;sort_order=desc" rel="nofollow">Сортировать по цене: дорогие выше</a>
+                    </li>
+                                                                                                                                                                                                                                                                                                                                                        <li class="sort-by-popularity-desc ty-sort-dropdown__content-item">
+                        <a class="cm-ajax ty-sort-dropdown__content-item-a" data-ca-target-id="pagination_contents" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;sort_by=popularity&amp;sort_order=desc" rel="nofollow">Сортировать по популярности: по убыванию</a>
+                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+</div>
+
+
+<div class="ty-sort-dropdown">
+<a id="sw_elm_pagination_steps" class="ty-sort-dropdown__wrapper cm-combination">12 На страницу<i class="ty-sort-dropdown__icon ty-icon-down-micro"></i></a>
+    <ul id="elm_pagination_steps" class="ty-sort-dropdown__content cm-popup-box hidden">
+                                            <li class="ty-sort-dropdown__content-item">
+                <a class="cm-ajax ty-sort-dropdown__content-item-a" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;items_per_page=24" data-ca-target-id="pagination_contents" rel="nofollow">24 На страницу</a>
+            </li>
+                                    <li class="ty-sort-dropdown__content-item">
+                <a class="cm-ajax ty-sort-dropdown__content-item-a" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;items_per_page=48" data-ca-target-id="pagination_contents" rel="nofollow">48 На страницу</a>
+            </li>
+                                    <li class="ty-sort-dropdown__content-item">
+                <a class="cm-ajax ty-sort-dropdown__content-item-a" href="http://localhost:8080/cscartRep/index.php?dispatch=categories.view&amp;category_id=7&amp;items_per_page=96" data-ca-target-id="pagination_contents" rel="nofollow">96 На страницу</a>
+            </li>
+                    </ul>
+</div>
+</div>
+    
+            
+    
+    
+    
+    
+    <!-- Inline script moved to the bottom of the page -->
+
+                    <div class="grid-list">
+        <div class="ty-column3">    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ty-grid-list__item ty-quick-view-button__wrapper"><form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_134" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?dispatch=categories.view&amp;category_id=7" />
+<input type="hidden" name="product_data[134][product_id]" value="134" />
+<div class="ty-grid-list__image">
+
+
+<div class="ty-center-block">
+    <div class="ty-thumbs-wrapper owl-carousel cm-image-gallery" data-ca-items-count="1" data-ca-items-responsive="true" id="icons_134">
+                    <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=134">
+        <img class="ty-pict     cm-image" id="det_img_134"  src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/3/1_uq6o-3k.jpg" alt="" title=""  />
+
+    </a>
+
+            </div>
+                                            <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=134">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/2.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=134">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/3.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=134">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/4.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=134">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/5.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=134">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/6.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                        </div>
+</div>
+    </div><div class="ty-grid-list__item-name"><bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=134" class="product-title" title="Razer Leviathan" >Razer Leviathan</a>    
+
+</bdi></div><div class="grid-list__rating">    
+    
+
+    
+
+</div><div class="ty-grid-list__price ty-grid-list__no-price">            <span class="cm-reload-134" id="old_price_update_134">
+            
+                        
+
+        <!--old_price_update_134--></span>
+        <span class="cm-reload-134 ty-price-update" id="price_update_134">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-no-price">Свяжитесь с нами насчёт цены</span>
+                                                
+
+                        <!--price_update_134--></span>
+        </div><div class="ty-grid-list__control"><div class="ty-quick-view-button">
+                                            <a class="ty-btn ty-btn__secondary ty-btn__big cm-dialog-opener cm-dialog-auto-size" data-ca-view-id="134" data-ca-target-id="product_quick_view" href="http://localhost:8080/cscartRep/index.php?dispatch=products.quick_view&amp;product_id=134&amp;prev_url=index.php%3Fdispatch%3Dcategories.view%26category_id%3D7&amp;n_items=134%2C135%2C136" data-ca-dialog-title="Быстрый просмотр товаров" rel="nofollow">Просмотр</a>
+</div></div>
+<input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+</div></div><div class="ty-column3">    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ty-grid-list__item ty-quick-view-button__wrapper"><form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_135" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?dispatch=categories.view&amp;category_id=7" />
+<input type="hidden" name="product_data[135][product_id]" value="135" />
+<div class="ty-grid-list__image">
+
+
+<div class="ty-center-block">
+    <div class="ty-thumbs-wrapper owl-carousel cm-image-gallery" data-ca-items-count="1" data-ca-items-responsive="true" id="icons_135">
+                    <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=135">
+        <img class="ty-pict     cm-image" id="det_img_135"  src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/3/1_kszb-bq.jpg" alt="" title=""  />
+
+    </a>
+
+            </div>
+                                            <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=135">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/2_m9zx-74.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=135">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/3_i4ao-4s.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=135">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/4_l602-32.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=135">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/5_1j16-ft.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=135">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/6.png" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=135">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/7.png" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=135">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/8.png" alt="" title=""  />
+
+                    </a>
+                </div>
+                        </div>
+</div>
+    </div><div class="ty-grid-list__item-name"><bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=135" class="product-title" title="Razer Nommo" >Razer Nommo</a>    
+
+</bdi></div><div class="grid-list__rating">    
+    
+
+    
+
+</div><div class="ty-grid-list__price ty-grid-list__no-price">            <span class="cm-reload-135" id="old_price_update_135">
+            
+                        
+
+        <!--old_price_update_135--></span>
+        <span class="cm-reload-135 ty-price-update" id="price_update_135">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-no-price">Свяжитесь с нами насчёт цены</span>
+                                                
+
+                        <!--price_update_135--></span>
+        </div><div class="ty-grid-list__control"><div class="ty-quick-view-button">
+                                            <a class="ty-btn ty-btn__secondary ty-btn__big cm-dialog-opener cm-dialog-auto-size" data-ca-view-id="135" data-ca-target-id="product_quick_view" href="http://localhost:8080/cscartRep/index.php?dispatch=products.quick_view&amp;product_id=135&amp;prev_url=index.php%3Fdispatch%3Dcategories.view%26category_id%3D7&amp;n_items=134%2C135%2C136" data-ca-dialog-title="Быстрый просмотр товаров" rel="nofollow">Просмотр</a>
+</div></div>
+<input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+</div></div><div class="ty-column3">    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ty-grid-list__item ty-quick-view-button__wrapper"><form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_136" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?dispatch=categories.view&amp;category_id=7" />
+<input type="hidden" name="product_data[136][product_id]" value="136" />
+<div class="ty-grid-list__image">
+
+
+<div class="ty-center-block">
+    <div class="ty-thumbs-wrapper owl-carousel cm-image-gallery" data-ca-items-count="1" data-ca-items-responsive="true" id="icons_136">
+                    <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+        <img class="ty-pict     cm-image" id="det_img_136"  src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/3/1_1nz0-4w.jpg" alt="" title=""  />
+
+    </a>
+
+            </div>
+                                            <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/2_1uhn-h7.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/3_sjp4-hz.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/4_d0ly-de.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/5.png" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/6_0njn-ve.png" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/7.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/8.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/9.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                                                <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/150/150/detailed/4/10.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                        </div>
+</div>
+    </div><div class="ty-grid-list__item-name"><bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=136" class="product-title" title="Razer Nommo Chroma" >Razer Nommo Chroma</a>    
+
+</bdi></div><div class="grid-list__rating">    
+    
+
+    
+
+</div><div class="ty-grid-list__price ty-grid-list__no-price">            <span class="cm-reload-136" id="old_price_update_136">
+            
+                        
+
+        <!--old_price_update_136--></span>
+        <span class="cm-reload-136 ty-price-update" id="price_update_136">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-no-price">Свяжитесь с нами насчёт цены</span>
+                                                
+
+                        <!--price_update_136--></span>
+        </div><div class="ty-grid-list__control"><div class="ty-quick-view-button">
+                                            <a class="ty-btn ty-btn__secondary ty-btn__big cm-dialog-opener cm-dialog-auto-size" data-ca-view-id="136" data-ca-target-id="product_quick_view" href="http://localhost:8080/cscartRep/index.php?dispatch=products.quick_view&amp;product_id=136&amp;prev_url=index.php%3Fdispatch%3Dcategories.view%26category_id%3D7&amp;n_items=134%2C135%2C136" data-ca-dialog-title="Быстрый просмотр товаров" rel="nofollow">Просмотр</a>
+</div></div>
+<input type="hidden" name="security_hash" class="cm-no-hide-input" value="0d8f96bf71258534211e0cce5b05484e" /></form>
+</div></div>    </div>
+
+            
+
+
+    <!--pagination_contents--></div>
+    
+    
+
+
+
+<!--category_products_12--></div>
+
+
+
+
+
+</div>
+    </div>
+";}s:6:"expiry";i:0;}

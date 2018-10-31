@@ -47,7 +47,7 @@ shopt -s nullglob
 for file in *.png *.PNG *.jpg *.JPG *.jpeg *.JPEG
 do
 	echo $file
-    Cfile=`curl https://api.tinify.com/shrink --user api:$TINYAPIKEY --data-binary @"${file}" --dump-header /dev/stdout --silent | grep location | awk '{print $2 }'`
+    Cfile=`curl https://api.tinify.com/shrink --user api:$TINYAPIKEY --data-binary @"${file}" --max-time 100 --dump-header /dev/stdout --silent | grep location | awk '{print $2 }'`
     Cfile=${Cfile// }
     Cfile=`echo -n "$Cfile"| sed s/.$//`
     curl ${Cfile} -o "${OUTDIR}/${file}" --silent

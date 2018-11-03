@@ -1,0 +1,717 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:2295:"<script type="text/javascript" src="http://localhost:8080/cscartRep/js/lib/owlcarousel/owl.carousel.min.js?ver=4.9.1" ></script><script type="text/javascript">
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_56');
+
+        $('.ty-float-left:contains(.ty-scroller-list),.ty-float-right:contains(.ty-scroller-list)').css('width', '100%');
+
+        var item = 4,
+            // default setting of carousel
+            itemsDesktop = 4,
+            itemsDesktopSmall = 3;
+            itemsTablet = 2;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+        var desktop = [1199, itemsDesktop],
+            desktopSmall = [979, itemsDesktopSmall],
+            tablet = [768, itemsTablet],
+            mobile = [479, 1];
+
+                function outsideNav () {
+            if(this.options.items >= this.itemsAmount){
+                $("#owl_outside_nav_56").hide();
+            } else {
+                $("#owl_outside_nav_56").show();
+            }
+        }
+        
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: desktop,
+                itemsDesktopSmall: desktopSmall,
+                itemsTablet: tablet,
+                itemsMobile: mobile,
+                                scrollPerPage: true,
+                                                autoPlay: false,
+                                lazyLoad: true,
+                slideSpeed: 400,
+                stopOnHover: true,
+                                pagination: false,
+                            afterInit: outsideNav,
+                afterUpdate : outsideNav
+            });
+
+              $('#owl_prev_56000').click(function(){
+                elm.trigger('owl.prev');
+              });
+              $('#owl_next_56000').click(function(){
+                elm.trigger('owl.next');
+              });
+
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:17218:"    <div class="ty-mainbox-simple-container clearfix homepage-hotdeals">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Горячие предложения
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+                        
+
+    <div class="owl-theme ty-owl-controls">
+        <div class="owl-controls clickable owl-controls-outside"  id="owl_outside_nav_56">
+            <div class="owl-buttons">
+                <div id="owl_prev_56000" class="owl-prev"><i class="ty-icon-left-open-thin"></i></div>
+                <div id="owl_next_56000" class="owl-next"><i class="ty-icon-right-open-thin"></i></div>
+            </div>
+        </div>
+    </div>
+
+<div id="scroll_list_56" class="owl-carousel ty-scroller-list">
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=308"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/5/1_pjpb-8q.jpg" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000308" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000308][product_id]" value="308" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=308" class="product-title" title="Игровое кресло Vertagear Racing S-Line SL2000 (CARBON)" >Игровое кресло Vertagear Racing S-Line SL2000 (CARBON)</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000308 " id="add_to_cart_update_56000scr_56000308">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000308">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000308--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="4731da06a3e7d0488be95d08a02aa7da" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=309"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/5/1_tzw6-r5.jpg" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000309" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000309][product_id]" value="309" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=309" class="product-title" title="Игровое кресло Vertagear Racing S-Line SL2000 (Black/Blue)
+" >Игровое кресло Vertagear Racing S-Line SL2000 (Black/Blue)
+</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000309 " id="add_to_cart_update_56000scr_56000309">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000309">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000309--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="4731da06a3e7d0488be95d08a02aa7da" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=310"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/5/1_w5s4-pj.jpg" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000310" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000310][product_id]" value="310" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=310" class="product-title" title="Игровое кресло Vertagear Racing S-Line SL2000 (Black/Red)" >Игровое кресло Vertagear Racing S-Line SL2000 (Black/Red)</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000310 " id="add_to_cart_update_56000scr_56000310">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000310">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000310--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="4731da06a3e7d0488be95d08a02aa7da" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=311"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/5/1_k36i-6v.jpg" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000311" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000311][product_id]" value="311" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=311" class="product-title" title="Игровое кресло Vertagear Racing S-Line SL2000 (Black/Green)" >Игровое кресло Vertagear Racing S-Line SL2000 (Black/Green)</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000311 " id="add_to_cart_update_56000scr_56000311">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000311">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000311--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="4731da06a3e7d0488be95d08a02aa7da" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=312"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/5/1_l35h-v4.jpg" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000312" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000312][product_id]" value="312" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=312" class="product-title" title="Игровое кресло Vertagear Racing S-Line SL2000 (Black/White)" >Игровое кресло Vertagear Racing S-Line SL2000 (Black/White)</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000312 " id="add_to_cart_update_56000scr_56000312">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000312">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000312--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="4731da06a3e7d0488be95d08a02aa7da" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=313"><img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost:8080/cscartRep/images/thumbnails/160/160/detailed/5/1_fy72-so.jpg" alt="" title=""  />
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://localhost:8080/cscartRep/index.php" method="post" name="product_form_56000scr_56000313" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[scr_56000313][product_id]" value="313" />
+
+            
+                            
+
+            <bdi>
+            <a href="http://localhost:8080/cscartRep/index.php?dispatch=products.view&amp;product_id=313" class="product-title" title="Игровое кресло Vertagear Racing S-Line SL2000 (Black/Pink)" >Игровое кресло Vertagear Racing S-Line SL2000 (Black/Pink)</a>    
+
+</bdi>
+                
+                
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-56000scr_56000313 " id="add_to_cart_update_56000scr_56000313">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+            <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_56000scr_56000313">Нет в наличии</span>
+    
+
+<!--add_to_cart_update_56000scr_56000313--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="4731da06a3e7d0488be95d08a02aa7da" /></form>
+
+    </div>
+
+            </div>
+        </div>
+        
+
+    </div>
+
+
+<!-- Inline script moved to the bottom of the page -->
+<!-- Inline script moved to the bottom of the page -->
+
+
+</div>
+    </div>
+";}s:6:"expiry";i:0;}

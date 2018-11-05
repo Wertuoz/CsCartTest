@@ -1,0 +1,34 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:648:"<script type="text/javascript">
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var slider = context.find('#banner_slider_149');
+        if (slider.length) {
+            slider.owlCarousel({
+                direction: 'ltr',
+                items: 1,
+                singleItem : true,
+                slideSpeed: 400,
+                autoPlay: '333000',
+                stopOnHover: true,
+                                                                    pagination: true,
+                    paginationNumbers: true
+                                            });
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:874:"    <div class=" homepage-banners">
+        
+    <div id="banner_slider_149" class="banners owl-carousel">
+                    <div class="ty-banner__image-item">
+                                                            <img class="ty-pict  ty-banner__image   cm-image" id="det_img_1159214421"  src="http://localhost:8080/cscartRep/images/promo/1/banner-ru-xbox360.png" alt="" title=""  />
+
+                                                </div>
+                    <div class="ty-banner__image-item">
+                                                            <img class="ty-pict  ty-banner__image   cm-image" id="det_img_485003727"  src="http://localhost:8080/cscartRep/images/promo/1/banner-ru-point.png" alt="" title=""  />
+
+                                                </div>
+            </div>
+
+<!-- Inline script moved to the bottom of the page -->
+    </div>
+";}s:6:"expiry";i:0;}

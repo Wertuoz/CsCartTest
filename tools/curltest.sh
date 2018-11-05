@@ -6,7 +6,7 @@
 # $result tee curltest.txt
 
 #!/bin/bash
-TINYAPIKEY="krybAhq1PGa88IWmwPYUP3ISK2yrbieW"
+TINYAPIKEY="8WNrZvJpyh3d4dKBBnzkx4CMWXbjpKzt"
  
 # Make sure source dir is supplied
 if [ -z "$1" ]

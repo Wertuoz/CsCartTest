@@ -16,15 +16,15 @@ a:2:{s:4:"data";a:2:{s:10:"javascript";s:648:"<script type="text/javascript">
         }
     });
 }(Tygh, Tygh.$));
-</script>";s:7:"content";s:874:"    <div class=" homepage-banners">
+</script>";s:7:"content";s:875:"    <div class=" homepage-banners">
         
     <div id="banner_slider_149" class="banners owl-carousel">
                     <div class="ty-banner__image-item">
-                                                            <img class="ty-pict  ty-banner__image   cm-image" id="det_img_768971608"  src="http://localhost:8080/cscartRep/images/promo/1/banner-ru-xbox360.png" alt="" title=""  />
+                                                            <img class="ty-pict  ty-banner__image   cm-image" id="det_img_1177822221"  src="http://localhost:8080/cscartRep/images/promo/1/banner-ru-xbox360.png" alt="" title=""  />
 
                                                 </div>
                     <div class="ty-banner__image-item">
-                                                            <img class="ty-pict  ty-banner__image   cm-image" id="det_img_1579485242"  src="http://localhost:8080/cscartRep/images/promo/1/banner-ru-point.png" alt="" title=""  />
+                                                            <img class="ty-pict  ty-banner__image   cm-image" id="det_img_2027191509"  src="http://localhost:8080/cscartRep/images/promo/1/banner-ru-point.png" alt="" title=""  />
 
                                                 </div>
             </div>

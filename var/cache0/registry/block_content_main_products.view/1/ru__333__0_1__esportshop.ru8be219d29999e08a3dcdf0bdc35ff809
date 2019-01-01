@@ -1,0 +1,588 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:5298:"<script type="text/javascript" src="http://esportshop.ru/js/tygh/exceptions.js?ver=4.9.1" ></script><script type="text/javascript" src="http://esportshop.ru/js/tygh/previewers/magnific.previewer.js?ver=4.9.1" ></script><script type="text/javascript" src="http://esportshop.ru/js/tygh/product_image_gallery.js?ver=4.9.1" ></script><script type="text/javascript" src="http://esportshop.ru/js/addons/image_zoom/cloudzoom.js?ver=4.9.1" ></script><script type="text/javascript" src="http://esportshop.ru/js/addons/image_zoom/func.js?ver=4.9.1" ></script><script type="text/javascript">
+(function(_, $) {
+
+    $.ceEvent('on', 'ce.commoninit', function (context) {
+
+        var mobileWidth = 767,
+            imageZoomSize = 450;
+
+        // Disable Cloud zoom on mobile devices
+        if ($(window).width() > mobileWidth) {
+
+            context.find('.cm-previewer').each(function () {
+
+                var elm = $(this).find('img'),
+                    elm_width = $(this).data('caImageWidth'),
+                    elm_height = $(this).data('caImageHeight'),
+                    elm_image_path = $(elm).data('caZoomImagePath') ? $(elm).data('caZoomImagePath') : $(this).prop('href');
+                    
+                if (elm.data('CloudZoom') == undefined) {
+                    elm.attr('data-cloudzoom', 'zoomImage: "' + elm_image_path + '"')
+                        .CloudZoom({
+                            tintColor: '#ffffff',
+                            tintOpacity: 0.6,
+                            animationTime: 200,
+                            easeTime: 200,
+                            zoomFlyOut: true,
+                            zoomSizeMode: 'zoom',
+                            captionPosition: 'bottom',
+                                                        zoomPosition: '3',
+                            autoInside: mobileWidth,
+                            disableOnScreenWidth: mobileWidth,
+                            zoomWidth: elm_width < imageZoomSize ? elm_width : imageZoomSize,
+                            zoomHeight: elm_height < imageZoomSize ? elm_height : imageZoomSize
+                        });
+                }
+            });
+
+        }
+    });
+
+}(Tygh, Tygh.$));
+</script><script type="text/javascript" class="cm-ajax-force">
+(function(_, $) {
+    $(document).ready(function () {
+        if($(".twitter-share-button").length > 0){
+            if (typeof (twttr) != 'undefined') {
+                twttr.widgets.load();
+            } else {
+                $.getScript('//platform.twitter.com/widgets.js');
+            }
+        }
+    });
+}(Tygh, Tygh.$));
+</script><script class="cm-ajax-force">
+    (function(_, $) {
+        if ($(".fb-like").length > 0) {
+            if (typeof (FB) != 'undefined') {
+                FB.init({ status: true, cookie: true, xfbml: true });
+            } else {
+                $.getScript("//connect.facebook.net/en_US/all.js#xfbml=1&appId=", function () {
+                    FB.init({ status: true, cookie: true, xfbml: true });
+                });
+            }
+        }
+    }(Tygh, Tygh.$));
+</script><script type="text/javascript" class="cm-ajax-force">
+    (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script><script type="text/javascript">
+    (function(d){
+        var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+        p.type = 'text/javascript';
+        p.async = true;
+        p.src = '//assets.pinterest.com/js/pinit.js';
+        f.parentNode.insertBefore(p, f);
+    }(document));
+</script><script type="text/javascript" src="http://esportshop.ru/js/tygh/tabs.js?ver=4.9.1" ></script><script type="text/javascript">
+        (function (w, _, $) {
+            $(document).ready(function () {
+                w.dataLayerYM.push({
+                    "ecommerce": {
+                        "detail": {
+                            "products": [
+                                {
+                                    "id": 728,
+                                    "name": "\u0418\u0433\u0440\u043e\u0432\u043e\u0435 \u043a\u0440\u0435\u0441\u043b\u043e Cougar ARMOR-TITAN-BO",
+                                    "price": "0.000000",
+                                    "brand": "",
+                                                                                                            "category": "\u0418\u0433\u0440\u043e\u0432\u044b\u0435 \u043a\u0440\u0435\u0441\u043b\u0430\/Cougar",
+                                                                    }
+                            ]
+                        }
+                    }
+                });
+            });
+        }(window, Tygh, Tygh.$));
+    </script><script type="text/javascript">
+(function(_, $) {
+    $.ceEvent('on', 'ce.formpre_product_form_728', function(frm, elm) {
+        if ($('#warning_728').length) {
+            $.ceNotification('show', {
+                type: 'W', 
+                title: _.tr('warning'), 
+                message: _.tr('cannot_buy'),
+            });
+
+            return false;
+        }
+            
+        return true;
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:38671:"        
+
+
+
+
+<!-- Inline script moved to the bottom of the page -->
+<div class="ty-product-block ty-product-detail">
+    <div class="ty-product-block__wrapper clearfix">
+    
+                                    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="ty-product-block__img-wrapper">
+                
+                                            <div class="ty-product-block__img cm-reload-728" id="product_images_728_update">
+
+                                                            
+
+                            
+    
+    
+    
+<div class="ty-product-img cm-preview-wrapper">
+<a id="det_img_link_7285c0137b7bf76d_8771"  class="cm-image-previewer " data-ca-image-width="400" data-ca-image-height="400" ><span class="ty-no-image" style="height: 280px; width: 280px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span><span class="ty-previewer__icon hidden-phone"></span></a>
+
+                                        <a id="det_img_link_7285c0137b7bf76d_8772"  class="cm-image-previewer hidden " data-ca-image-width="400" data-ca-image-height="400" ><span class="ty-no-image" style="height: 280px; width: 280px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span><span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_7285c0137b7bf76d_8773"  class="cm-image-previewer hidden " data-ca-image-width="400" data-ca-image-height="400" ><span class="ty-no-image" style="height: 280px; width: 280px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span><span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_7285c0137b7bf76d_8774"  class="cm-image-previewer hidden " data-ca-image-width="400" data-ca-image-height="400" ><span class="ty-no-image" style="height: 280px; width: 280px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span><span class="ty-previewer__icon hidden-phone"></span></a>
+                                            <a id="det_img_link_7285c0137b7bf76d_8775"  class="cm-image-previewer hidden " data-ca-image-width="400" data-ca-image-height="400" ><span class="ty-no-image" style="height: 280px; width: 280px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span><span class="ty-previewer__icon hidden-phone"></span></a>
+    </div>
+
+            <div class="ty-product-thumbnails ty-center cm-image-gallery" id="images_preview_7285c0137b7bf76d" style="width: 280px;">
+            <a data-ca-gallery-large-id="det_img_link_7285c0137b7bf76d_8771" class="cm-thumbnails-mini active ty-product-thumbnails__item"><span class="ty-no-image" style="height: 35px; width: 35px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span></a><a data-ca-gallery-large-id="det_img_link_7285c0137b7bf76d_8772" class="cm-thumbnails-mini ty-product-thumbnails__item"><span class="ty-no-image" style="height: 35px; width: 35px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span></a><a data-ca-gallery-large-id="det_img_link_7285c0137b7bf76d_8773" class="cm-thumbnails-mini ty-product-thumbnails__item"><span class="ty-no-image" style="height: 35px; width: 35px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span></a><a data-ca-gallery-large-id="det_img_link_7285c0137b7bf76d_8774" class="cm-thumbnails-mini ty-product-thumbnails__item"><span class="ty-no-image" style="height: 35px; width: 35px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span></a><a data-ca-gallery-large-id="det_img_link_7285c0137b7bf76d_8775" class="cm-thumbnails-mini ty-product-thumbnails__item"><span class="ty-no-image" style="height: 35px; width: 35px; "><i class="ty-no-image__icon ty-icon-image" title="Нет изображения"></i></span></a>        </div>
+    
+
+<!-- Inline script moved to the bottom of the page -->
+<!-- Inline script moved to the bottom of the page -->
+
+
+<!-- Inline script moved to the bottom of the page -->
+<!-- Inline script moved to the bottom of the page -->
+
+<!-- Inline script moved to the bottom of the page -->
+
+                        <!--product_images_728_update--></div>
+                                    
+
+            </div>
+            <div class="ty-product-block__left">
+                                <form action="http://esportshop.ru/index.php" method="post" name="product_form_728" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?dispatch=products.view&amp;product_id=728" />
+<input type="hidden" name="product_data[728][product_id]" value="728" />
+
+
+                
+                                            <h1 class="ty-product-block-title" ><bdi>Игровое кресло Cougar ARMOR-TITAN-BO</bdi></h1>
+                    
+                    
+                        <div class="brand cm-reload-728" id="product_728_brand_container">
+    
+
+
+<!--product_728_brand_container--></div>
+                    
+
+                
+
+
+                                                                                
+                
+                                
+
+
+                <div class="prices-container price-wrap">
+                                            <div class="ty-product-prices">
+                                        <span class="cm-reload-728" id="old_price_update_728">
+            
+                        
+
+        <!--old_price_update_728--></span>
+                        
+                                            <div class="ty-product-block__price-actual">
+                                <span class="cm-reload-728 ty-price-update" id="price_update_728">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-no-price">Свяжитесь с нами насчёт цены</span>
+                                                
+
+                        <!--price_update_728--></span>
+
+                        </div>
+                    
+                                                    
+                                        <span class="cm-reload-728" id="line_discount_update_728">
+            <input type="hidden" name="appearance[show_price_values]" value="1" />
+            <input type="hidden" name="appearance[show_list_discount]" value="1" />
+                    <!--line_discount_update_728--></span>
+    
+                        </div>
+                                    </div>
+
+                                <div class="ty-product-block__option">
+                                                <div class="cm-reload-728" id="product_options_update_728">
+        <input type="hidden" name="appearance[show_product_options]" value="1" />
+        <input type="hidden" name="product_id" value="728" />
+                                                    
+<input type="hidden" name="appearance[details_page]" value="1" />
+    <input type="hidden" name="additional_info[info_type]" value="D" />
+    <input type="hidden" name="additional_info[get_icon]" value="1" />
+    <input type="hidden" name="additional_info[get_detailed]" value="1" />
+    <input type="hidden" name="additional_info[get_additional]" value="" />
+    <input type="hidden" name="additional_info[get_options]" value="1" />
+    <input type="hidden" name="additional_info[get_discounts]" value="1" />
+    <input type="hidden" name="additional_info[get_features]" value="" />
+    <input type="hidden" name="additional_info[get_extra]" value="" />
+    <input type="hidden" name="additional_info[get_taxed_prices]" value="1" />
+    <input type="hidden" name="additional_info[get_for_one_product]" value="1" />
+    <input type="hidden" name="additional_info[detailed_params]" value="1" />
+    <input type="hidden" name="additional_info[features_display_on]" value="C" />
+
+
+<!-- Inline script moved to the bottom of the page -->
+
+        
+
+    <!--product_options_update_728--></div>
+    
+                </div>
+                
+                <div class="ty-product-block__advanced-option clearfix">
+                                                                        <div class="cm-reload-728" id="advanced_options_update_728">
+            
+            
+            
+<input type="hidden" name="appearance[dont_show_points]" value="" />
+    <div class="ty-reward-group product-list-field hidden">
+    <span class="ty-control-group__label">Бонусные баллы:</span>
+    <span class="ty-control-group__item" id="reward_points_728"><bdi> баллов</bdi></span>
+</div>
+
+        <!--advanced_options_update_728--></div>
+    
+                                    </div>
+
+                <div class="ty-product-block__sku">
+                                                    <div class="ty-control-group ty-sku-item cm-hidden-wrapper cm-reload-728" id="sku_update_728">
+            <input type="hidden" name="appearance[show_sku]" value="1" />
+                            <label class="ty-control-group__label" id="sku_728">КОД:</label>
+                        <span class="ty-control-group__item">ARMOR-TITAN-BO</span>
+        <!--sku_update_728--></div>
+    
+                </div>
+
+                                <div class="ty-product-block__field-group">
+                                        
+    <div class="cm-reload-728 stock-wrap" id="product_amount_update_728">
+        <input type="hidden" name="appearance[show_product_amount]" value="1" />
+                                                        <div class="ty-control-group product-list-field">
+                                                    <label class="ty-control-group__label">Доступность:</label>
+                                                <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_728">Нет в наличии</span>
+                    </div>
+                                        <!--product_amount_update_728--></div>
+
+
+
+
+                                            
+        <div class="cm-reload-728" id="qty_update_728">
+        <input type="hidden" name="appearance[show_qty]" value="" />
+        <input type="hidden" name="appearance[capture_options_vs_qty]" value="" />
+                            
+                    <input type="hidden" name="product_data[728][amount]" value="1" />
+                <!--qty_update_728--></div>
+    
+
+
+
+                                            
+            
+
+
+                </div>
+                
+                                    
+
+                
+                                <div class="ty-product-block__button">
+                    
+                                        <div class="cm-reload-728 " id="add_to_cart_update_728">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="1" />
+<input type="hidden" name="appearance[but_role]" value="big" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+
+        
+ 
+    <a  class="ty-btn ty-btn__text ty-add-to-wish cm-submit text-button " id="button_wishlist_728" data-ca-dispatch="dispatch[wishlist.add..728]">Отложить</a>
+
+
+    
+            
+ 
+    <a  class="ty-btn ty-btn__text ty-add-to-compare cm-ajax cm-ajax-full-render text-button " href="http://esportshop.ru/index.php?dispatch=product_features.add_product&amp;product_id=728&amp;redirect_url=index.php%3Fdispatch%3Dproducts.view%26product_id%3D728" rel="nofollow" data-ca-target-id="comparison_list,account_info*">Добавить в список сравнения</a>
+
+
+
+
+
+<!--add_to_cart_update_728--></div>
+
+
+                                        
+                </div>
+                
+                                <input type="hidden" name="security_hash" class="cm-no-hide-input" value="73bc7e539ed20ab873397da08db58eb6" /></form>
+
+
+                
+                
+    <ul class="ty-social-buttons">
+                        <li class="ty-social-buttons__inline"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ru" data-size="medium" data-count="horizontal" data-url="http://esportshop.ru/index.php?dispatch=products.view&product_id=728" >Tweet</a>
+<!-- Inline script moved to the bottom of the page -->
+</li>
+                                <li class="ty-social-buttons__inline"><div id="fb-root"></div>
+<div class="fb-like" data-lang="ru" data-layout="button_count" data-href="http://esportshop.ru/index.php?dispatch=products.view&product_id=728" data-send="true" data-show-faces="false" data-action="like" data-font="arial" data-colorscheme="light" data-width="450" ></div>
+<!-- Inline script moved to the bottom of the page -->
+</li>
+                                <li class="ty-social-buttons__inline"><div class="g-plusone" data-size="standard" data-annotation="bubble" data-align="left" data-expandTo="top" data-recommendations="yes" ></div>
+<!-- Inline script moved to the bottom of the page -->
+</li>
+                                            <li class="ty-social-buttons__inline"><a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fesportshop.ru%2Findex.php%3Fdispatch%3Dproducts.view%26product_id%3D728&amp;media=&amp;description=%D0%9A%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%B3%D0%B5%D0%B9%D0%BC%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20Cougar%20ARMOR%20%5Bblack%2Forange%5D.%20%26amp%3Bquot%3BCougar%20Armor%20-%20%D0%BD%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B8%D0%B9%20%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%26amp%3Bquot%3B%26amp%3Bquot%3B%D1%82%D1%80%D0%BE%D0%BD%26amp%3Bquot%3B%26amp%3Bquot%3B%20%D1%81%20%D0%BC%D0%BE%D1%89%D0%BD%D0%BE%D0%B9%20%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%B9%2C..." data-pin-do="buttonPin" data-pin-shape="rect" data-pin-height="20" data-pin-color="gray" ><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" alt="Pinterest"></a>
+<!-- Inline script moved to the bottom of the page -->
+</li>
+                </ul>
+
+
+                                
+
+                    
+                            </div>
+        
+    
+
+    </div>
+
+    
+            
+            
+
+
+                                    
+
+<!-- Inline script moved to the bottom of the page -->
+<div class="ty-tabs cm-j-tabs clearfix">
+    <ul class="ty-tabs__list" >
+                                                        <li id="description" class="ty-tabs__item cm-js active"><a class="ty-tabs__a" >Описание</a></li>
+                                            <li id="features" class="ty-tabs__item cm-js"><a class="ty-tabs__a" >Особенности</a></li>
+                                                        <li id="" class="ty-tabs__item"><a class="ty-tabs__a" ></a></li>
+                                                                </ul>
+</div>
+
+<div class="cm-tabs-content ty-tabs__content clearfix" id="tabs_content">
+                            
+            
+                                        
+            <div id="content_description" class="ty-wysiwyg-content content-description">
+                                                    
+    <div >Кресло геймерское Cougar ARMOR [black/orange]. "Cougar Armor - настоящий игровой ""трон"" с мощной броней, для любителей поиграть в комфорте!Непревзойденный комфорт
+Регулируемый подлокотник 4D
+Механизм качания с функцией блокировки
+Раскладывание спинки на 170°
+Откидывание спинки с возможностью блокировки
+Удобное широкое сиденье с регулировкой высоты
+Броня COUGAR - идеальное место для игроков профессионального уровня. Этот игровой стул - полностью регулируемый трон, который удовлетворит самых требовательных геймеров.
+Пподдержка веса до 160 кг, множество настроек и высококлассные материалы. ARMOR TITAN - это то, что вам нужно!</div>
+
+                            
+            </div>
+                                
+            
+                                        
+            <div id="content_features" class="ty-wysiwyg-content content-features">
+                                                    
+            <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Артикул:</span>
+
+                            
+        <div class="ty-product-feature__value">ARMOR-TITAN-BO</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Бренд:</span>
+
+                            
+        <div class="ty-product-feature__value">Cougar</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Гарантия:</span>
+
+                            
+        <div class="ty-product-feature__value">12 месяцев</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Допустимая нагрузка (кг):</span>
+
+                            
+        <div class="ty-product-feature__value">до 160 кг</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Материал обивки:</span>
+
+                            
+        <div class="ty-product-feature__value">Дышащая эко-кожа</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Откидывание спинки:</span>
+
+                            
+        <div class="ty-product-feature__value">до 170 градусов</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Подлокотники:</span>
+
+                            
+        <div class="ty-product-feature__value">4D</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Тип кресла:</span>
+
+                            
+        <div class="ty-product-feature__value">Игровое</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Тип спинки:</span>
+
+                            
+        <div class="ty-product-feature__value">Высокая</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Функция кресла-качалки:</span>
+
+                            
+        <div class="ty-product-feature__value">Есть</div>
+        </div>
+                <div class="ty-product-feature">
+        <span class="ty-product-feature__label">Цвет обивки:</span>
+
+                            
+        <div class="ty-product-feature__value">Черный/Оранжевый</div>
+        </div>
+    
+                                            
+                            
+            </div>
+                                
+            
+            
+            <div id="content_files" class="ty-wysiwyg-content content-files">
+                                                    
+
+                            
+            </div>
+                                
+            
+                                        
+            <div id="content_._tags" class="ty-wysiwyg-content content-._tags">
+                                                        Mac OS X            	   2  �     �                                    ATTR W  �   �   9                  �   9  com.apple.quarantine 0081;5bc77ec5;Chrome;06DBAFE5-36C5-4A58-B547-47C65DA352A6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              This resource fork intentionally left blank                                                                                                                                                                                                                            ��
+                            
+            </div>
+                                
+            
+            
+            <div id="content_tags" class="ty-wysiwyg-content content-tags">
+                                                    
+    
+
+                            
+            </div>
+                                
+            
+                                        
+            <div id="content_._attachments" class="ty-wysiwyg-content content-._attachments">
+                                                        Mac OS X            	   2  �     �                                    ATTR %�  �   �   9                  �   9  com.apple.quarantine 0081;5bc77ec5;Chrome;06DBAFE5-36C5-4A58-B547-47C65DA352A6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              This resource fork intentionally left blank                                                                                                                                                                                                                            ��
+                            
+            </div>
+                                
+            
+            
+            <div id="content_attachments" class="ty-wysiwyg-content content-attachments">
+                                                    
+
+                            
+            </div>
+                                            
+            
+                                        
+            <div id="content_._discussion" class="ty-wysiwyg-content content-._discussion">
+                                                        Mac OS X            	   2  �     �                                    ATTR �  �   �   9                  �   9  com.apple.quarantine 0081;5bc77ec5;Chrome;06DBAFE5-36C5-4A58-B547-47C65DA352A6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              This resource fork intentionally left blank                                                                                                                                                                                                                            ��
+                            
+            </div>
+                                
+            
+            
+            <div id="content_discussion" class="ty-wysiwyg-content content-discussion">
+                                                    
+
+
+                            
+            </div>
+                                
+            
+                                        
+            <div id="content_._required_products" class="ty-wysiwyg-content content-._required_products">
+                                                        Mac OS X            	   2  �     �                                    ATTR �  �   �   9                  �   9  com.apple.quarantine 0081;5bc77ec5;Chrome;06DBAFE5-36C5-4A58-B547-47C65DA352A6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              This resource fork intentionally left blank                                                                                                                                                                                                                            ��
+                            
+            </div>
+                                
+            
+            
+            <div id="content_required_products" class="ty-wysiwyg-content content-required_products">
+                                                    
+
+                            
+            </div>
+            
+</div>
+
+
+
+                    
+
+    </div>
+
+<div class="product-details">
+</div>
+
+
+
+    <!-- Inline script moved to the bottom of the page -->
+
+";}s:6:"expiry";i:0;}

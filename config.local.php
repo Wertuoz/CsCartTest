@@ -22,6 +22,12 @@ if (!defined('BOOTSTRAP')) { die('Access denied'); }
 error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
+if ($_SERVER['REMOTE_ADDR'] == '95.104.194.197') {
+    define('DEVELOPMENT', true);
+    error_reporting(E_ALL);
+    ini_set('display_errors', 'On');
+}
+
 // Set maximum memory limit
 if (PHP_INT_SIZE == 4 && (substr(ini_get('memory_limit'), 0, -1) < "64")) {
   // 32bit PHP
@@ -41,8 +47,8 @@ if (!defined('CONSOLE')) {
  */
 $config['db_host'] = 'localhost';
 $config['db_name'] = 'cscartRep';
-$config['db_user'] = 'root';
-$config['db_password'] = '';
+$config['db_user'] = 'site';
+$config['db_password'] = 'Dawa866781';
 
 $config['database_backend'] = 'mysqli';
 
@@ -64,12 +70,12 @@ $config['table_prefix'] = 'cscart_';
  */
 
 // Host and directory where software is installed on no-secure server
-$config['http_host'] = 'localhost:8080';
-$config['http_path'] = '/cscartRep';
+$config['http_host'] = 'esportshop.ru';
+$config['http_path'] = '';
 
 // Host and directory where software is installed on secure server
-$config['https_host'] = 'localhost:8080';
-$config['https_path'] = '/cscartRep';
+$config['https_host'] = 'esportshop.ru';
+$config['https_path'] = '';
 
 /*
  * Misc options
@@ -97,7 +103,7 @@ $config['tweaks'] = array (
     'api_https_only' => false, // Allows the use the API functionality only by the HTTPS protocol
     'api_allow_customer' => false, // Allow open API for unauthorized customers
     'lazy_thumbnails' => false, // generate image thumbnails on the fly
-    'image_resize_lib' => 'auto', // library to resize images - "auto", "gd" or "imagick"
+    'image_resize_lib' => 'imagick', // library to resize images - "auto", "gd" or "imagick"
     'products_found_rows_no_cache_limit' => 100, // Max count of SQL found rows without saving to cache
     'show_database_changes' => false, // Show database changes in View changes tool
     'backup_db_mysqldump' => false, // Backup database using mysqldump when available
